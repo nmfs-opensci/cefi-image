@@ -1,22 +1,31 @@
+name: cefi-cookbook-dev
 channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - jupyter-resource-usage=1.*
-  - jupyterhub-singleuser=5.*
-  - notebook=6.*
-  ## Basic python stack
-  - numpy<2.0
-  - pandas
+  - dask
+  - netcdf4
+  - erddapy=1.2.1
+  - scipy
+  - xarray
   - matplotlib
-
-  # gh-scoped-creds allows users to securely push to GitHub from their repo.
-  - gh-scoped-creds
-  
-  ## JupyterLab extensions and helpers
-  - jupyterlab-git
-
-  ## VS Code support
-  - jupyter-vscode-proxy
-  - code-server>4.0
-  
+  - folium
+  - bokeh
+  - plotly
+  - jupyter-book
+  - jupytext
+  - ghp-import
+  - jupyter-cache
+  - cf_xarray
+  - cartopy
+  - zarr<3
+  - fsspec
+  - gcsfs
+  - s3fs
+  - r-irkernel
+  - r-rerddap
+  - r-ncdf4
+  - r-maps
+  - r-reticulate
+  - r-dplyr
+  - r-ggplot2
