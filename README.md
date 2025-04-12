@@ -2,9 +2,9 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nmfs-opensci/cefi-image/HEAD)
 [![Build and push container image](https://github.com/nmfs-opensci/cefi-image/actions/workflows/repo2docker.yaml/badge.svg)](https://github.com/nmfs-opensci/cefi-image/actions/workflows/repo2docker.yaml)
 
-A repository for creating an environment image for a Jupyter Hub. The main purpose is to help users create custom images for JupyterHubs, expecially if they need to add command line tools to the image.  
+image url: `ghcr.io/nmfs-opensci/cefi-image:latest`
 
-## How to use? 
+## How to update image? 
 
 * Add packages: Edit `binder/environment.yml`. The new image will automatically build.
 * Add system libraries: Add `binder/apt.txt`. No comments. One package per line.
