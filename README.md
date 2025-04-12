@@ -1,4 +1,4 @@
-# Hub Image Template
+# CEFI JupyterHub user image
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nmfs-opensci/cefi-image/HEAD)
 [![Build and push container image](https://github.com/nmfs-opensci/cefi-image/actions/workflows/repo2docker.yaml/badge.svg)](https://github.com/nmfs-opensci/cefi-image/actions/workflows/repo2docker.yaml)
 
