@@ -26,7 +26,7 @@ jobs:
         DOCKER_USERNAME: ${{github.actor}}
         DOCKER_PASSWORD: ${{secrets.GITHUB_TOKEN}}
         DOCKER_REGISTRY: ghcr.io
-        IMAGE_NAME: nmfs-opensci/hub-image-template
+        IMAGE_NAME: nmfs-opensci/cefi-image
         APPENDIX_FILE: binder/appendix
         # Next line is mandatory for a JupyterHub deployment since default is ${HOME}
         # and that is wiped out if there is a persistent home directory
